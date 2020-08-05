@@ -65,6 +65,7 @@ def main():
     model.train()
     losses = []
     for epoch in range(epochs):
+        break
         for i, (images, targets) in enumerate(train_loader):
             images, targets = images.cuda(), targets.cuda()
             optimizer.zero_grad()
@@ -92,6 +93,15 @@ def main():
     for corruption in CORRUPTIONS:
         test_data.data = np.load('./data/cifar/CIFAR-100-C/%s.npy' % corruption)
         test_data.targets = torch.LongTensor(np.load('./data/cifar/CIFAR-100-C/labels.npy'))
+        test_loader = torch.utils.data.DataLoader(
+                   test_data,
+                   batch_size=batch_size,
+                   shuffle=True,
+                   num_workers=4,
+                   pin_memory=True)
+        for i, (images, targets) in enumerate(test_loader):
+            print(images.size())
+            print(targets.size())
 
 if __name__=="__main__":
     main()

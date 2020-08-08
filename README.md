@@ -28,7 +28,7 @@ Pytorch Implementation of AugMix (ICLR2020)
   <img src="results/AugMix_loss_curve.png" width="250" />
 </p>
 
-### Sample Images
+### Sample Images (original / augmented 1 / augmented 2)
 <p float="left">
   <img src="results/sample_images/image_orig.png" width="250" />
   <img src="results/sample_images/image_aug1.png" width="250" />

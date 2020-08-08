@@ -20,6 +20,14 @@ Pytorch Implementation of AugMix (ICLR2020)
 * AugMix with 1 augmented image : 24.49% (CIFAR-100 Test Set) / 39.54% (CIFAR-100-C Average)
 * AugMix with 3 augmented image : 23.23% (CIFAR-100 Test Set) / 36.04% (CIFAR-100-C Average)
 
+
+### Loss Curves
+<p float="left">
+  <img src="results/No_AugMix_loss_curve.png" width="400" />
+  <img src="results/AugMix_No_JSD_loss_curve.png" width="400" /> 
+  <img src="results/AugMix_loss_curve.png" width="400" />
+</p>
+
 ### References
 [1] Hendrycks, D., Mu, N., Cubuk, E. D., Zoph, B., Gilmer, J., & Lakshminarayanan, B. (2019). Augmix: A simple data processing method to improve robustness and uncertainty. arXiv preprint arXiv:1912.02781.
 

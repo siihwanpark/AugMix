@@ -23,9 +23,9 @@ Pytorch Implementation of AugMix (ICLR2020)
 
 ### Loss Curves
 <p float="left">
-  <img src="results/No_AugMix_loss_curve.png" width="400" />
-  <img src="results/AugMix_No_JSD_loss_curve.png" width="400" /> 
-  <img src="results/AugMix_loss_curve.png" width="400" />
+  <img src="results/No_AugMix_loss_curve.png" width="200" />
+  <img src="results/AugMix_No_JSD_loss_curve.png" width="200" /> 
+  <img src="results/AugMix_loss_curve.png" width="200" />
 </p>
 
 ### References

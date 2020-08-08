@@ -28,6 +28,12 @@ Pytorch Implementation of AugMix (ICLR2020)
   <img src="results/AugMix_loss_curve.png" width="250" />
 </p>
 
+### Sample Images
+<p float="left">
+  <img src="results/sample_images/image_orig.png" width="250" />
+  <img src="results/sample_images/image_aug1.png" width="250" />
+  <img src="results/sample_images/image_aug2.png" width="250" />
+</p>
 ### References
 [1] Hendrycks, D., Mu, N., Cubuk, E. D., Zoph, B., Gilmer, J., & Lakshminarayanan, B. (2019). Augmix: A simple data processing method to improve robustness and uncertainty. arXiv preprint arXiv:1912.02781.
 
